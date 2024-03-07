@@ -1,36 +1,34 @@
 ---
 license: creativeml-openrail-m
 tags:
-  - stablediffusionapi.com
+  - modelslab.com
   - stable-diffusion-api
   - text-to-image
   - ultra-realistic
 pinned: true
 ---
 
-# Realistic Vision V5.1 API Inference
+#  API Inference
 
-![generated from stablediffusionapi.com](https://cdn.stablediffusionapi.com/generations/8112328501690811758.png)
+![generated from modelslab.com](https://cdn2.stablediffusionapi.com/generations/bf190b5a-fe19-437c-ba05-82f29cb1f7ad-0.png)
 ## Get API Key
 
-Get API key from [Stable Diffusion API](http://stablediffusionapi.com/), No Payment needed. 
+Get API key from [ModelsLab API](http://modelslab.com), No Payment needed. 
 
 Replace Key in below code, change **model_id**  to "realistic-vision-v51"
 
-Coding in PHP/Node/Java etc? Have a look at docs for more code examples: [View docs](https://stablediffusionapi.com/docs)
+Coding in PHP/Node/Java etc? Have a look at docs for more code examples: [View docs](https://modelslab.com/docs)
 
-Try model for free: [Generate Images](https://stablediffusionapi.com/models/realistic-vision-v51)
+Try model for free: [Generate Images](https://modelslab.com/models/realistic-vision-v51)
 
-Model link: [View model](https://stablediffusionapi.com/models/realistic-vision-v51)
+Model link: [View model](https://modelslab.com/models/realistic-vision-v51)
 
-Credits: [View credits](https://civitai.com/?query=Realistic%20Vision%20V5.1)
-
-View all models: [View Models](https://stablediffusionapi.com/models)
+View all models: [View Models](https://modelslab.com/models)
 
     import requests  
     import json  
       
-    url =  "https://stablediffusionapi.com/api/v4/dreambooth"  
+    url =  "https://modelslab.com/api/v6/images/text2img"  
       
     payload = json.dumps({  
     "key":  "your_api_key",  

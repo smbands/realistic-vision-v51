@@ -19,6 +19,6 @@
   "pad_token_id": 1,
   "projection_dim": 768,
   "torch_dtype": "float16",
-  "transformers_version": "4.33.1",
+  "transformers_version": "4.35.2",
   "vocab_size": 49408
 }

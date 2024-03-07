@@ -24,5 +24,6 @@
   "rescale_factor": 0.00392156862745098,
   "size": {
     "shortest_edge": 224
-  }
+  },
+  "use_square_size": false
 }

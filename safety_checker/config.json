@@ -15,7 +15,7 @@
     "num_attention_heads": 12
   },
   "torch_dtype": "float16",
-  "transformers_version": "4.33.1",
+  "transformers_version": "4.35.2",
   "vision_config": {
     "dropout": 0.0,
     "hidden_size": 1024,

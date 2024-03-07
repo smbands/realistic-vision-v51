@@ -1,6 +1,6 @@
 {
   "_class_name": "UNet2DConditionModel",
-  "_diffusers_version": "0.21.2",
+  "_diffusers_version": "0.25.0.dev0",
   "act_fn": "silu",
   "addition_embed_type": null,
   "addition_embed_type_num_heads": 64,
@@ -48,6 +48,7 @@
   "resnet_out_scale_factor": 1.0,
   "resnet_skip_time_act": false,
   "resnet_time_scale_shift": "default",
+  "reverse_transformer_layers_per_block": null,
   "sample_size": 64,
   "time_cond_proj_dim": null,
   "time_embedding_act_fn": null,
